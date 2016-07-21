@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF039FCA1D40749A008D78A0 /* GADRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = EF039FC91D40749A008D78A0 /* GADRequestError.m */; };
+		EF039FCD1D40792F008D78A0 /* future_detail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF039FCB1D40792F008D78A0 /* future_detail.cpp */; };
+		EF039FD41D40B374008D78A0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF039FD31D40B374008D78A0 /* libcurl.a */; };
+		EF039FD71D40BD0E008D78A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF039FD61D40BD0E008D78A0 /* UIKit.framework */; };
+		EF039FDA1D40E071008D78A0 /* github_downloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF039FD81D40E071008D78A0 /* github_downloader.cpp */; };
+		EF039FDB1D40E071008D78A0 /* github_downloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF039FD81D40E071008D78A0 /* github_downloader.cpp */; };
+		EF039FDC1D40E071008D78A0 /* github_downloader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EF039FD91D40E071008D78A0 /* github_downloader.hpp */; };
+		EF039FDF1D40E07F008D78A0 /* downloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF039FDD1D40E07F008D78A0 /* downloader.cpp */; };
+		EF039FE01D40E07F008D78A0 /* downloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF039FDD1D40E07F008D78A0 /* downloader.cpp */; };
+		EF039FE11D40E07F008D78A0 /* downloader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EF039FDE1D40E07F008D78A0 /* downloader.hpp */; };
+		EF7EBEC11D3F4C8C00D4F884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBEC01D3F4C8C00D4F884 /* main.m */; };
+		EF7EBEC41D3F4C8D00D4F884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBEC31D3F4C8D00D4F884 /* AppDelegate.m */; };
+		EF7EBEC71D3F4C8D00D4F884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBEC61D3F4C8D00D4F884 /* ViewController.m */; };
+		EF7EBECA1D3F4C8D00D4F884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7EBEC81D3F4C8D00D4F884 /* Main.storyboard */; };
+		EF7EBECC1D3F4C8D00D4F884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7EBECB1D3F4C8D00D4F884 /* Assets.xcassets */; };
+		EF7EBECF1D3F4C8D00D4F884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7EBECD1D3F4C8D00D4F884 /* LaunchScreen.storyboard */; };
+		EF7EBEDA1D3F4C8D00D4F884 /* AdExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBED91D3F4C8D00D4F884 /* AdExampleTests.m */; };
+		EF7EBEE51D3F4C8D00D4F884 /* AdExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBEE41D3F4C8D00D4F884 /* AdExampleUITests.m */; };
+		EF7EBF011D3F4CA000D4F884 /* CartoonMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */; };
+		EF7EBF081D3F4CA000D4F884 /* CartoonMobileAdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBF071D3F4CA000D4F884 /* CartoonMobileAdsTests.m */; };
+		EF7EBF0C1D3F4CA000D4F884 /* CartoonMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */; };
+		EF7EBF0D1D3F4CA000D4F884 /* CartoonMobileAds.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF7EBF241D3F4CFA00D4F884 /* libcmadmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7EBF191D3F4CBD00D4F884 /* libcmadmob.a */; };
+		EF7EBF321D3F4E8300D4F884 /* CartoonMobileAds.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF301D3F4E8300D4F884 /* CartoonMobileAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBF331D3F4E8300D4F884 /* CartoonMobileAdsDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF311D3F4E8300D4F884 /* CartoonMobileAdsDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBF361D3F4F1D00D4F884 /* GADInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF341D3F4F1D00D4F884 /* GADInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBF371D3F4F1D00D4F884 /* GADInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF351D3F4F1D00D4F884 /* GADInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBF3A1D3F4F2C00D4F884 /* GADRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF381D3F4F2C00D4F884 /* GADRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBF3B1D3F4F2C00D4F884 /* GADRequestError.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBF391D3F4F2C00D4F884 /* GADRequestError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBFC71D405D7B00D4F884 /* GADAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7EBFC61D405D7B00D4F884 /* GADAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7EBFC91D405F3200D4F884 /* GADRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBFC81D405F3200D4F884 /* GADRequest.mm */; };
+		EF7EBFCB1D405F9600D4F884 /* GADInterstitial.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBFCA1D405F9600D4F884 /* GADInterstitial.mm */; };
+		EF7EBFEA1D406A6800D4F884 /* admob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBFE91D406A6800D4F884 /* admob.cpp */; };
+		EF7EBFEC1D406A8600D4F884 /* interstitial_ad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBFEB1D406A8600D4F884 /* interstitial_ad.cpp */; };
+		EF7EBFEE1D406B4200D4F884 /* future.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF7EBFED1D406B4200D4F884 /* future.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7EBED61D3F4C8D00D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBEBB1D3F4C8C00D4F884;
+			remoteInfo = AdExample;
+		};
+		EF7EBEE11D3F4C8D00D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBEBB1D3F4C8C00D4F884;
+			remoteInfo = AdExample;
+		};
+		EF7EBF021D3F4CA000D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBEF61D3F4CA000D4F884;
+			remoteInfo = CartoonMobileAds;
+		};
+		EF7EBF041D3F4CA000D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBEBB1D3F4C8C00D4F884;
+			remoteInfo = AdExample;
+		};
+		EF7EBF221D3F4CF600D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBF181D3F4CBD00D4F884;
+			remoteInfo = cmadmob;
+		};
+		EF7EBF5E1D3F84C000D4F884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7EBEF61D3F4CA000D4F884;
+			remoteInfo = CartoonMobileAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF7EBF111D3F4CA000D4F884 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF7EBF0D1D3F4CA000D4F884 /* CartoonMobileAds.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBF171D3F4CBD00D4F884 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF039FC91D40749A008D78A0 /* GADRequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADRequestError.m; sourceTree = "<group>"; };
+		EF039FCB1D40792F008D78A0 /* future_detail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = future_detail.cpp; sourceTree = "<group>"; };
+		EF039FCC1D40792F008D78A0 /* future_detail.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = future_detail.hpp; sourceTree = "<group>"; };
+		EF039FD31D40B374008D78A0 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		EF039FD61D40BD0E008D78A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF039FD81D40E071008D78A0 /* github_downloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = github_downloader.cpp; sourceTree = "<group>"; };
+		EF039FD91D40E071008D78A0 /* github_downloader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = github_downloader.hpp; sourceTree = "<group>"; };
+		EF039FDD1D40E07F008D78A0 /* downloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = downloader.cpp; sourceTree = "<group>"; };
+		EF039FDE1D40E07F008D78A0 /* downloader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = downloader.hpp; sourceTree = "<group>"; };
+		EF7EBEBC1D3F4C8C00D4F884 /* AdExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBEC01D3F4C8C00D4F884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7EBEC21D3F4C8C00D4F884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7EBEC31D3F4C8D00D4F884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7EBEC51D3F4C8D00D4F884 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7EBEC61D3F4C8D00D4F884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7EBEC91D3F4C8D00D4F884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7EBECB1D3F4C8D00D4F884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7EBECE1D3F4C8D00D4F884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7EBED01D3F4C8D00D4F884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EBED51D3F4C8D00D4F884 /* AdExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBED91D3F4C8D00D4F884 /* AdExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdExampleTests.m; sourceTree = "<group>"; };
+		EF7EBEDB1D3F4C8D00D4F884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EBEE01D3F4C8D00D4F884 /* AdExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBEE41D3F4C8D00D4F884 /* AdExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdExampleUITests.m; sourceTree = "<group>"; };
+		EF7EBEE61D3F4C8D00D4F884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CartoonMobileAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBEFB1D3F4CA000D4F884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EBF001D3F4CA000D4F884 /* CartoonMobileAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartoonMobileAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBF071D3F4CA000D4F884 /* CartoonMobileAdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartoonMobileAdsTests.m; sourceTree = "<group>"; };
+		EF7EBF091D3F4CA000D4F884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7EBF191D3F4CBD00D4F884 /* libcmadmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcmadmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7EBF301D3F4E8300D4F884 /* CartoonMobileAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonMobileAds.h; sourceTree = "<group>"; };
+		EF7EBF311D3F4E8300D4F884 /* CartoonMobileAdsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonMobileAdsDefines.h; sourceTree = "<group>"; };
+		EF7EBF341D3F4F1D00D4F884 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		EF7EBF351D3F4F1D00D4F884 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		EF7EBF381D3F4F2C00D4F884 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		EF7EBF391D3F4F2C00D4F884 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		EF7EBFC61D405D7B00D4F884 /* GADAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdDelegate.h; sourceTree = "<group>"; };
+		EF7EBFC81D405F3200D4F884 /* GADRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GADRequest.mm; sourceTree = "<group>"; };
+		EF7EBFCA1D405F9600D4F884 /* GADInterstitial.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GADInterstitial.mm; sourceTree = "<group>"; };
+		EF7EBFE91D406A6800D4F884 /* admob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = admob.cpp; sourceTree = "<group>"; };
+		EF7EBFEB1D406A8600D4F884 /* interstitial_ad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interstitial_ad.cpp; sourceTree = "<group>"; };
+		EF7EBFED1D406B4200D4F884 /* future.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = future.cpp; sourceTree = "<group>"; };
+		EF7EBFEF1D406B6D00D4F884 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7EBEB91D3F4C8C00D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBF0C1D3F4CA000D4F884 /* CartoonMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBED21D3F4C8D00D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEDD1D3F4C8D00D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEF31D3F4CA000D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF039FD71D40BD0E008D78A0 /* UIKit.framework in Frameworks */,
+				EF7EBF241D3F4CFA00D4F884 /* libcmadmob.a in Frameworks */,
+				EF039FD41D40B374008D78A0 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEFD1D3F4CA000D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBF011D3F4CA000D4F884 /* CartoonMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBF161D3F4CBD00D4F884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF039FD21D40B374008D78A0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF039FD31D40B374008D78A0 /* libcurl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EF039FE21D40E88F008D78A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF039FD61D40BD0E008D78A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7EBEB31D3F4C8C00D4F884 = {
+			isa = PBXGroup;
+			children = (
+				EF039FE21D40E88F008D78A0 /* Frameworks */,
+				EF7EBEBE1D3F4C8C00D4F884 /* AdExample */,
+				EF7EBED81D3F4C8D00D4F884 /* AdExampleTests */,
+				EF7EBEE31D3F4C8D00D4F884 /* AdExampleUITests */,
+				EF7EBEF81D3F4CA000D4F884 /* CartoonMobileAds */,
+				EF7EBF061D3F4CA000D4F884 /* CartoonMobileAdsTests */,
+				EF7EBF1A1D3F4CBD00D4F884 /* cmadmob */,
+				EF7EBEBD1D3F4C8C00D4F884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7EBEBD1D3F4C8C00D4F884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBEBC1D3F4C8C00D4F884 /* AdExample.app */,
+				EF7EBED51D3F4C8D00D4F884 /* AdExampleTests.xctest */,
+				EF7EBEE01D3F4C8D00D4F884 /* AdExampleUITests.xctest */,
+				EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */,
+				EF7EBF001D3F4CA000D4F884 /* CartoonMobileAdsTests.xctest */,
+				EF7EBF191D3F4CBD00D4F884 /* libcmadmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7EBEBE1D3F4C8C00D4F884 /* AdExample */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBEC21D3F4C8C00D4F884 /* AppDelegate.h */,
+				EF7EBEC31D3F4C8D00D4F884 /* AppDelegate.m */,
+				EF7EBEC51D3F4C8D00D4F884 /* ViewController.h */,
+				EF7EBEC61D3F4C8D00D4F884 /* ViewController.m */,
+				EF7EBEC81D3F4C8D00D4F884 /* Main.storyboard */,
+				EF7EBECB1D3F4C8D00D4F884 /* Assets.xcassets */,
+				EF7EBECD1D3F4C8D00D4F884 /* LaunchScreen.storyboard */,
+				EF7EBED01D3F4C8D00D4F884 /* Info.plist */,
+				EF7EBEBF1D3F4C8C00D4F884 /* Supporting Files */,
+			);
+			path = AdExample;
+			sourceTree = "<group>";
+		};
+		EF7EBEBF1D3F4C8C00D4F884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBEC01D3F4C8C00D4F884 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7EBED81D3F4C8D00D4F884 /* AdExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBED91D3F4C8D00D4F884 /* AdExampleTests.m */,
+				EF7EBEDB1D3F4C8D00D4F884 /* Info.plist */,
+			);
+			path = AdExampleTests;
+			sourceTree = "<group>";
+		};
+		EF7EBEE31D3F4C8D00D4F884 /* AdExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBEE41D3F4C8D00D4F884 /* AdExampleUITests.m */,
+				EF7EBEE61D3F4C8D00D4F884 /* Info.plist */,
+			);
+			path = AdExampleUITests;
+			sourceTree = "<group>";
+		};
+		EF7EBEF81D3F4CA000D4F884 /* CartoonMobileAds */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBF301D3F4E8300D4F884 /* CartoonMobileAds.h */,
+				EF7EBF311D3F4E8300D4F884 /* CartoonMobileAdsDefines.h */,
+				EF7EBFC61D405D7B00D4F884 /* GADAdDelegate.h */,
+				EF7EBF341D3F4F1D00D4F884 /* GADInterstitial.h */,
+				EF7EBFCA1D405F9600D4F884 /* GADInterstitial.mm */,
+				EF7EBF351D3F4F1D00D4F884 /* GADInterstitialDelegate.h */,
+				EF7EBF381D3F4F2C00D4F884 /* GADRequest.h */,
+				EF7EBFC81D405F3200D4F884 /* GADRequest.mm */,
+				EF7EBF391D3F4F2C00D4F884 /* GADRequestError.h */,
+				EF039FC91D40749A008D78A0 /* GADRequestError.m */,
+				EF7EBEFB1D3F4CA000D4F884 /* Info.plist */,
+			);
+			path = CartoonMobileAds;
+			sourceTree = "<group>";
+		};
+		EF7EBF061D3F4CA000D4F884 /* CartoonMobileAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBF071D3F4CA000D4F884 /* CartoonMobileAdsTests.m */,
+				EF7EBF091D3F4CA000D4F884 /* Info.plist */,
+			);
+			path = CartoonMobileAdsTests;
+			sourceTree = "<group>";
+		};
+		EF7EBF1A1D3F4CBD00D4F884 /* cmadmob */ = {
+			isa = PBXGroup;
+			children = (
+				EF039FD21D40B374008D78A0 /* lib */,
+				EF7EBFEF1D406B6D00D4F884 /* include */,
+				EF7EBFE81D406A5400D4F884 /* src */,
+			);
+			path = cmadmob;
+			sourceTree = "<group>";
+		};
+		EF7EBFE81D406A5400D4F884 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EBFE91D406A6800D4F884 /* admob.cpp */,
+				EF7EBFEB1D406A8600D4F884 /* interstitial_ad.cpp */,
+				EF7EBFED1D406B4200D4F884 /* future.cpp */,
+				EF039FCB1D40792F008D78A0 /* future_detail.cpp */,
+				EF039FCC1D40792F008D78A0 /* future_detail.hpp */,
+				EF039FD81D40E071008D78A0 /* github_downloader.cpp */,
+				EF039FD91D40E071008D78A0 /* github_downloader.hpp */,
+				EF039FDD1D40E07F008D78A0 /* downloader.cpp */,
+				EF039FDE1D40E07F008D78A0 /* downloader.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF7EBEF41D3F4CA000D4F884 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF039FE11D40E07F008D78A0 /* downloader.hpp in Headers */,
+				EF7EBF321D3F4E8300D4F884 /* CartoonMobileAds.h in Headers */,
+				EF7EBF371D3F4F1D00D4F884 /* GADInterstitialDelegate.h in Headers */,
+				EF7EBF331D3F4E8300D4F884 /* CartoonMobileAdsDefines.h in Headers */,
+				EF7EBF3A1D3F4F2C00D4F884 /* GADRequest.h in Headers */,
+				EF039FDC1D40E071008D78A0 /* github_downloader.hpp in Headers */,
+				EF7EBF361D3F4F1D00D4F884 /* GADInterstitial.h in Headers */,
+				EF7EBFC71D405D7B00D4F884 /* GADAdDelegate.h in Headers */,
+				EF7EBF3B1D3F4F2C00D4F884 /* GADRequestError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF7EBEBB1D3F4C8C00D4F884 /* AdExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBEE91D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExample" */;
+			buildPhases = (
+				EF7EBEB81D3F4C8C00D4F884 /* Sources */,
+				EF7EBEB91D3F4C8C00D4F884 /* Frameworks */,
+				EF7EBEBA1D3F4C8C00D4F884 /* Resources */,
+				EF7EBF111D3F4CA000D4F884 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7EBF5F1D3F84C000D4F884 /* PBXTargetDependency */,
+			);
+			name = AdExample;
+			productName = AdExample;
+			productReference = EF7EBEBC1D3F4C8C00D4F884 /* AdExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7EBED41D3F4C8D00D4F884 /* AdExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBEEC1D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExampleTests" */;
+			buildPhases = (
+				EF7EBED11D3F4C8D00D4F884 /* Sources */,
+				EF7EBED21D3F4C8D00D4F884 /* Frameworks */,
+				EF7EBED31D3F4C8D00D4F884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7EBED71D3F4C8D00D4F884 /* PBXTargetDependency */,
+			);
+			name = AdExampleTests;
+			productName = AdExampleTests;
+			productReference = EF7EBED51D3F4C8D00D4F884 /* AdExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7EBEDF1D3F4C8D00D4F884 /* AdExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBEEF1D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExampleUITests" */;
+			buildPhases = (
+				EF7EBEDC1D3F4C8D00D4F884 /* Sources */,
+				EF7EBEDD1D3F4C8D00D4F884 /* Frameworks */,
+				EF7EBEDE1D3F4C8D00D4F884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7EBEE21D3F4C8D00D4F884 /* PBXTargetDependency */,
+			);
+			name = AdExampleUITests;
+			productName = AdExampleUITests;
+			productReference = EF7EBEE01D3F4C8D00D4F884 /* AdExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EF7EBEF61D3F4CA000D4F884 /* CartoonMobileAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBF0E1D3F4CA000D4F884 /* Build configuration list for PBXNativeTarget "CartoonMobileAds" */;
+			buildPhases = (
+				EF7EBEF21D3F4CA000D4F884 /* Sources */,
+				EF7EBEF31D3F4CA000D4F884 /* Frameworks */,
+				EF7EBEF41D3F4CA000D4F884 /* Headers */,
+				EF7EBEF51D3F4CA000D4F884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7EBF231D3F4CF600D4F884 /* PBXTargetDependency */,
+			);
+			name = CartoonMobileAds;
+			productName = CartoonMobileAds;
+			productReference = EF7EBEF71D3F4CA000D4F884 /* CartoonMobileAds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF7EBEFF1D3F4CA000D4F884 /* CartoonMobileAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBF121D3F4CA000D4F884 /* Build configuration list for PBXNativeTarget "CartoonMobileAdsTests" */;
+			buildPhases = (
+				EF7EBEFC1D3F4CA000D4F884 /* Sources */,
+				EF7EBEFD1D3F4CA000D4F884 /* Frameworks */,
+				EF7EBEFE1D3F4CA000D4F884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7EBF031D3F4CA000D4F884 /* PBXTargetDependency */,
+				EF7EBF051D3F4CA000D4F884 /* PBXTargetDependency */,
+			);
+			name = CartoonMobileAdsTests;
+			productName = CartoonMobileAdsTests;
+			productReference = EF7EBF001D3F4CA000D4F884 /* CartoonMobileAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7EBF181D3F4CBD00D4F884 /* cmadmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7EBF1F1D3F4CBD00D4F884 /* Build configuration list for PBXNativeTarget "cmadmob" */;
+			buildPhases = (
+				EF7EBF151D3F4CBD00D4F884 /* Sources */,
+				EF7EBF161D3F4CBD00D4F884 /* Frameworks */,
+				EF7EBF171D3F4CBD00D4F884 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cmadmob;
+			productName = cmadmob;
+			productReference = EF7EBF191D3F4CBD00D4F884 /* libcmadmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7EBEB41D3F4C8C00D4F884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Long Way Studio";
+				TargetAttributes = {
+					EF7EBEBB1D3F4C8C00D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF7EBED41D3F4C8D00D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7EBEBB1D3F4C8C00D4F884;
+					};
+					EF7EBEDF1D3F4C8D00D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7EBEBB1D3F4C8C00D4F884;
+					};
+					EF7EBEF61D3F4CA000D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF7EBEFF1D3F4CA000D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7EBEBB1D3F4C8C00D4F884;
+					};
+					EF7EBF181D3F4CBD00D4F884 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF7EBEB71D3F4C8C00D4F884 /* Build configuration list for PBXProject "AdExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7EBEB31D3F4C8C00D4F884;
+			productRefGroup = EF7EBEBD1D3F4C8C00D4F884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7EBEBB1D3F4C8C00D4F884 /* AdExample */,
+				EF7EBED41D3F4C8D00D4F884 /* AdExampleTests */,
+				EF7EBEDF1D3F4C8D00D4F884 /* AdExampleUITests */,
+				EF7EBEF61D3F4CA000D4F884 /* CartoonMobileAds */,
+				EF7EBEFF1D3F4CA000D4F884 /* CartoonMobileAdsTests */,
+				EF7EBF181D3F4CBD00D4F884 /* cmadmob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7EBEBA1D3F4C8C00D4F884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBECF1D3F4C8D00D4F884 /* LaunchScreen.storyboard in Resources */,
+				EF7EBECC1D3F4C8D00D4F884 /* Assets.xcassets in Resources */,
+				EF7EBECA1D3F4C8D00D4F884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBED31D3F4C8D00D4F884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEDE1D3F4C8D00D4F884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEF51D3F4CA000D4F884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEFE1D3F4CA000D4F884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7EBEB81D3F4C8C00D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBEC71D3F4C8D00D4F884 /* ViewController.m in Sources */,
+				EF7EBEC41D3F4C8D00D4F884 /* AppDelegate.m in Sources */,
+				EF7EBEC11D3F4C8C00D4F884 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBED11D3F4C8D00D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBEDA1D3F4C8D00D4F884 /* AdExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEDC1D3F4C8D00D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBEE51D3F4C8D00D4F884 /* AdExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEF21D3F4CA000D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF039FCA1D40749A008D78A0 /* GADRequestError.m in Sources */,
+				EF7EBFCB1D405F9600D4F884 /* GADInterstitial.mm in Sources */,
+				EF7EBFC91D405F3200D4F884 /* GADRequest.mm in Sources */,
+				EF039FDA1D40E071008D78A0 /* github_downloader.cpp in Sources */,
+				EF039FDF1D40E07F008D78A0 /* downloader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBEFC1D3F4CA000D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBF081D3F4CA000D4F884 /* CartoonMobileAdsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EBF151D3F4CBD00D4F884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7EBFEC1D406A8600D4F884 /* interstitial_ad.cpp in Sources */,
+				EF7EBFEE1D406B4200D4F884 /* future.cpp in Sources */,
+				EF039FE01D40E07F008D78A0 /* downloader.cpp in Sources */,
+				EF039FDB1D40E071008D78A0 /* github_downloader.cpp in Sources */,
+				EF7EBFEA1D406A6800D4F884 /* admob.cpp in Sources */,
+				EF039FCD1D40792F008D78A0 /* future_detail.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7EBED71D3F4C8D00D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBEBB1D3F4C8C00D4F884 /* AdExample */;
+			targetProxy = EF7EBED61D3F4C8D00D4F884 /* PBXContainerItemProxy */;
+		};
+		EF7EBEE21D3F4C8D00D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBEBB1D3F4C8C00D4F884 /* AdExample */;
+			targetProxy = EF7EBEE11D3F4C8D00D4F884 /* PBXContainerItemProxy */;
+		};
+		EF7EBF031D3F4CA000D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBEF61D3F4CA000D4F884 /* CartoonMobileAds */;
+			targetProxy = EF7EBF021D3F4CA000D4F884 /* PBXContainerItemProxy */;
+		};
+		EF7EBF051D3F4CA000D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBEBB1D3F4C8C00D4F884 /* AdExample */;
+			targetProxy = EF7EBF041D3F4CA000D4F884 /* PBXContainerItemProxy */;
+		};
+		EF7EBF231D3F4CF600D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBF181D3F4CBD00D4F884 /* cmadmob */;
+			targetProxy = EF7EBF221D3F4CF600D4F884 /* PBXContainerItemProxy */;
+		};
+		EF7EBF5F1D3F84C000D4F884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7EBEF61D3F4CA000D4F884 /* CartoonMobileAds */;
+			targetProxy = EF7EBF5E1D3F84C000D4F884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7EBEC81D3F4C8D00D4F884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7EBEC91D3F4C8D00D4F884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7EBECD1D3F4C8D00D4F884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7EBECE1D3F4C8D00D4F884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7EBEE71D3F4C8D00D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7EBEE81D3F4C8D00D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7EBEEA1D3F4C8D00D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = AdExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7EBEEB1D3F4C8D00D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = AdExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7EBEED1D3F4C8D00D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdExample.app/AdExample";
+			};
+			name = Debug;
+		};
+		EF7EBEEE1D3F4C8D00D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdExample.app/AdExample";
+			};
+			name = Release;
+		};
+		EF7EBEF01D3F4C8D00D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdExample;
+			};
+			name = Debug;
+		};
+		EF7EBEF11D3F4C8D00D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.AdExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdExample;
+			};
+			name = Release;
+		};
+		EF7EBF0F1D3F4CA000D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/cmadmob/include";
+				INFOPLIST_FILE = CartoonMobileAds/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/cmadmob/lib";
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.CartoonMobileAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF7EBF101D3F4CA000D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/cmadmob/include";
+				INFOPLIST_FILE = CartoonMobileAds/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/cmadmob/lib";
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.CartoonMobileAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF7EBF131D3F4CA000D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CartoonMobileAdsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.CartoonMobileAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdExample.app/AdExample";
+			};
+			name = Debug;
+		};
+		EF7EBF141D3F4CA000D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CartoonMobileAdsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longway.CartoonMobileAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdExample.app/AdExample";
+			};
+			name = Release;
+		};
+		EF7EBF201D3F4CBD00D4F884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/cmadmob/include";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lcurl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF7EBF211D3F4CBD00D4F884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/cmadmob/include";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lcurl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7EBEB71D3F4C8C00D4F884 /* Build configuration list for PBXProject "AdExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBEE71D3F4C8D00D4F884 /* Debug */,
+				EF7EBEE81D3F4C8D00D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBEE91D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBEEA1D3F4C8D00D4F884 /* Debug */,
+				EF7EBEEB1D3F4C8D00D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBEEC1D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBEED1D3F4C8D00D4F884 /* Debug */,
+				EF7EBEEE1D3F4C8D00D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBEEF1D3F4C8D00D4F884 /* Build configuration list for PBXNativeTarget "AdExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBEF01D3F4C8D00D4F884 /* Debug */,
+				EF7EBEF11D3F4C8D00D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBF0E1D3F4CA000D4F884 /* Build configuration list for PBXNativeTarget "CartoonMobileAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBF0F1D3F4CA000D4F884 /* Debug */,
+				EF7EBF101D3F4CA000D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBF121D3F4CA000D4F884 /* Build configuration list for PBXNativeTarget "CartoonMobileAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBF131D3F4CA000D4F884 /* Debug */,
+				EF7EBF141D3F4CA000D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7EBF1F1D3F4CBD00D4F884 /* Build configuration list for PBXNativeTarget "cmadmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7EBF201D3F4CBD00D4F884 /* Debug */,
+				EF7EBF211D3F4CBD00D4F884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7EBEB41D3F4C8C00D4F884 /* Project object */;
+}
